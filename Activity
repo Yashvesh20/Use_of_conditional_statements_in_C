@@ -1,0 +1,148 @@
+Yashvesh Singh 24070123138
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int day;
+    int type;
+
+    cout << "Choose a Day:" << endl;
+    cout << "1. Monday\n2. Tuesday\n3. Wednesday\n4. Thursday\n5. Friday\n6. Saturday\n7. Sunday" << endl;
+    cout << "Enter Your Choice~> ";
+    cin >> day;
+
+    switch(day)
+    {
+    case 1:
+        cout << "Choose Activity Type:\n1. Indoor\n2. Outdoor\n3. Social" << endl;
+        cout << "Enter Your Choice~> ";
+        cin >> type;
+        switch(type)
+        {
+        case 1:
+            cout << "Read a book 📚" << endl;
+            break;
+        case 2:
+            cout << "Go for a jog 🏃" << endl;
+            break;
+        case 3:
+            cout << "Call a friend ☎️" << endl;
+            break;
+        }
+        break;
+
+    case 2:
+        cout << "Choose Activity Type:\n1. Indoor\n2. Outdoor\n3. Social" << endl;
+        cout << "Enter Your Choice~> ";
+        cin >> type;
+        switch(type)
+        {
+        case 1:
+            cout << "Watch a documentary 🎬" << endl;
+            break;
+        case 2:
+            cout << "Cycling 🚴" << endl;
+            break;
+        case 3:
+            cout << "Group study 📖" << endl;
+            break;
+        }
+        break;
+
+    case 3:
+        cout << "Choose Activity Type:\n1. Indoor\n2. Outdoor\n3. Social" << endl;
+        cout << "Enter Your Choice~> ";
+        cin >> type;
+        switch(type)
+        {
+        case 1:
+            cout << "Sketch something ✏️" << endl;
+            break;
+        case 2:
+            cout << "Play badminton 🏸" << endl;
+            break;
+        case 3:
+            cout << "Attend a webinar 💻" << endl;
+            break;
+        }
+        break;
+
+    case 4:
+        cout << "Choose Activity Type:\n1. Indoor\n2. Outdoor\n3. Social" << endl;
+        cout << "Enter Your Choice~> ";
+        cin >> type;
+        switch(type)
+        {
+        case 1:
+            cout << "Do a puzzle 🧩" << endl;
+            break;
+        case 2:
+            cout << "Visit a park 🌳" << endl;
+            break;
+        case 3:
+            cout << "Join a hobby club 🎨" << endl;
+            break;
+        }
+        break;
+
+    case 5:
+        cout << "Choose Activity Type:\n1. Indoor\n2. Outdoor\n3. Social" << endl;
+        cout << "Enter Your Choice~> ";
+        cin >> type;
+        switch(type)
+        {
+        case 1:
+            cout << "Organize your room 🛋️" << endl;
+            break;
+        case 2:
+            cout << "Play football ⚽" << endl;
+            break;
+        case 3:
+            cout << "Game night with friends 🎮" << endl;
+            break;
+        }
+        break;
+
+    case 6:
+        cout << "Choose Activity Type:\n1. Indoor\n2. Outdoor\n3. Social" << endl;
+        cout << "Enter Your Choice~> ";
+        cin >> type;
+        switch(type)
+        {
+        case 1:
+            cout << "Meditate 🧘" << endl;
+            break;
+        case 2:
+            cout << "Nature walk 🥾" << endl;
+            break;
+        case 3:
+            cout << "Family dinner 🍲" << endl;
+            break;
+        }
+        break;
+
+    case 7:
+        cout << "Choose Activity Type:\n1. Indoor\n2. Outdoor\n3. Social" << endl;
+        cout << "Enter Your Choice~> ";
+        cin >> type;
+        switch(type)
+        {
+        case 1:
+            cout << "Bake something sweet 🍪" << endl;
+            break;
+        case 2:
+            cout << "Swimming 🏊" << endl;
+            break;
+        case 3:
+            cout << "Movie night 🎥" << endl;
+            break;
+        }
+        break;
+
+    default:
+        cout << "Invalid input. Please select a valid day (1-7)." << endl;
+    }
+
+    return 0;
+}
